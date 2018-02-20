@@ -3,6 +3,7 @@
 Plugin Name: Hohn Morris Example Forms Plugin
 Plugin URI:
 Description: An example forms plugin.
+Version: 20180218
 Author: John Morris
 License: GPL2
 License URI: http://www.somwhereoutthere.com
@@ -16,19 +17,19 @@ require_once( __DIR__ . '/includes/class-PHPFormBuilder.php' );
 if( ! class_exists( 'JMOForms ' ) ) {
 	class JMOForms {
 		public __construct() {
-			
+
 		}
-		
+
 		public function enqueue_scripts() {
-			
+
 		}
-		
+
 		public function form( $atts ) {
-			
+
 		}
-		
+
 		public function form_handler() {
-			
+
 		}
 	}
 }
